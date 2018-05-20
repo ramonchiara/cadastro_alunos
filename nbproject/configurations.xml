@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>modelos/aluno.h</itemPath>
+      <itemPath>dao/dao.h</itemPath>
+      <itemPath>io/leitor.h</itemPath>
+      <itemPath>menus/menus.h</itemPath>
+      <itemPath>menus/ordens.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <logicalFolder name="f4" displayName="dao" projectFiles="true">
+        <itemPath>dao/dao_array.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f2" displayName="io" projectFiles="true">
+        <itemPath>io/leitor.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f1" displayName="menus" projectFiles="true">
+        <itemPath>menus/atualizar_aluno.c</itemPath>
+        <itemPath>menus/consultar_aluno.c</itemPath>
+        <itemPath>menus/inserir_aluno.c</itemPath>
+        <itemPath>menus/listar_alunos.c</itemPath>
+        <itemPath>menus/listar_alunos_aprovados.c</itemPath>
+        <itemPath>menus/listar_alunos_por_media.c</itemPath>
+        <itemPath>menus/listar_alunos_reprovados.c</itemPath>
+        <itemPath>menus/ordens.c</itemPath>
+        <itemPath>menus/remover_aluno.c</itemPath>
+        <itemPath>menus/sair.c</itemPath>
+      </logicalFolder>
+      <logicalFolder name="f3" displayName="modelos" projectFiles="true">
+        <itemPath>modelos/aluno.c</itemPath>
+      </logicalFolder>
+      <itemPath>main.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <standard>2</standard>
+          <commandLine>-pedantic -Wall</commandLine>
+        </cTool>
+      </compileType>
+      <item path="dao/dao.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dao/dao_array.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="io/leitor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="io/leitor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/atualizar_aluno.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/consultar_aluno.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/inserir_aluno.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/listar_alunos.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/listar_alunos_aprovados.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/listar_alunos_por_media.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/listar_alunos_reprovados.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/menus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="menus/ordens.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/ordens.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="menus/remover_aluno.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/sair.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="modelos/aluno.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="modelos/aluno.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <standard>2</standard>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="dao/dao.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="dao/dao_array.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="io/leitor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="io/leitor.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/atualizar_aluno.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/consultar_aluno.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/inserir_aluno.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/listar_alunos.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/listar_alunos_aprovados.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/listar_alunos_por_media.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/listar_alunos_reprovados.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/menus.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="menus/ordens.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/ordens.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="menus/remover_aluno.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="menus/sair.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="modelos/aluno.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="modelos/aluno.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
